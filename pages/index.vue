@@ -1,23 +1,20 @@
-<script setup lang="ts">
-const localPath = useLocalePath();
-</script>
 <template>
   <div class="mx-auto px-4">
     <!-- Hero Section -->
     <div class="hero pt-5">
       <section class="">
         <div class="max-w-xl text-center">
-          <h1 class="text-5xl font-bold tracking-wider text-yellow-300">
+          <h1 class="text-5xl font-bold tracking-wider text-yellow-50">
             {{ $t('home_title') }}
           </h1>
           <h2 class="text-1xl mb-5 text-yellow-300">{{ $t('home_tag') }}</h2>
           <img class="video-image mb-6 mt-6 rounded-3xl" src="/assets/image.jpg" />
           <section class="blurred-bg rounded-3xl">
-            <p class="mb-5">
+            <p class="mb-5 text-yellow-50">
               {{ $t('home_p1.1') }}
               <!-- TODO: keep one-liner -->
               <span class="font-bold text-yellow-300">{{ $t('home_p1.2') }}</span>
-              <span>{{ $t('home_p1.3') }}</span>
+              <span class="text-yellow-50">{{ $t('home_p1.3') }}</span>
             </p>
 
             <a href="tel:+972555694652" class="btn btn-lg btn-wide mx-4 border-0 bg-yellow-500 text-xl font-bold text-black hover:bg-yellow-400">
@@ -43,7 +40,7 @@ const localPath = useLocalePath();
         </div>
       </section>
     </div>
-    <div class="py-20">
+    <div class="py-20 text-yellow-50">
       <div class="container mx-auto px-6 md:px-12 xl:px-32">
         <div class="mb-16 text-center">
           <h2 class="mb-4 text-center text-2xl font-bold md:text-4xl">{{ $t('team_title') }}</h2>
@@ -76,7 +73,7 @@ const localPath = useLocalePath();
     </div>
 
     <!-- About Me Section -->
-    <section id="about" class="">
+    <section id="about" class="text-yellow-50">
       <div class="text-center">
         <h2 class="mb-2 text-4xl font-bold">
           {{ $t('about_title') }}
