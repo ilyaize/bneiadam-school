@@ -1,0 +1,50 @@
+{
+  "home": "Bnei Adam",
+  "home2": "School",
+  "nav_home": "Home",
+  "nav_about": "About",
+  "nav_work": "Work",
+  "nav_contact": "Contact",
+
+  "home_title": "Bnei Adam",
+  "home_tag": "School of osteopathy & psychology",
+
+  "home_btn": "Call Now",
+  "home_p1.1": "Hello, I'm ",
+  "home_p1.2": "Michael Amar",
+  "home_p1.3": ", BSc., welcome to Bnei Adam School, here we are committed to offering a transformative educational experience that harmoniously blends the principles of osteopathy with the insights of psychology. Our mission is to nurture not just the intellectual growth of our students but also to foster their physical and emotional well-being, guided by the belief that true education encompasses the whole person.",
+
+  "team_title": "Our Team:",
+  "team_p1": "Meet our dedicated team at Bnei Adam—experts in osteopathy, psychology, and education. Collaborating seamlessly, we provide comprehensive support, fostering a holistic and inclusive learning environment for every student's success.",
+  "team_c1.1": "Ilya Aizenberg",
+  "team_c1.2": "Chief Technical Officer",
+  "team_c2.1": "Michael Amar",
+  "team_c2.2": "Founder, Psychologist, Osteopath",
+  "team_c3.1": "Bridget Doe",
+  "team_c3.2": "Chief Operations Officer",
+
+  "about_title": "About Us:",
+  "about_tag": "A little bit more about who we are and what we do.",
+  "about_p1": "The Bnei Adam School of Osteopathy and Psychology, led by a seasoned psychologist and osteopath based in Jerusalem, is dedicated to the holistic well-being of individuals. With a comprehensive approach, the school integrates psychological insights and osteopathic techniques to address both the mind and body. Its commitment to personalized care fosters a supportive environment for clients seeking mental and physical harmony.",
+  "about_p2": "Drawing on its expertise and compassionate nature, the school guides individuals on a journey towards optimal health, empowering them to navigate life's challenges with resilience. Embark on a transformative journey to holistic well-being with the unique blend of psychology and osteopathy offered at the Bnei Adam School.",
+
+  "testimonials_title": "Testimonials:",
+  "testimonials_tag": "What people say about my work.",
+  "testimonials_p1": "\"Ilya's work on our web project was outstanding. The attention to detail and innovative approach were exactly what we needed.\"",
+  "testimonials_p2": "– Michael Amar, Bnei Adam",
+
+  "cta_title": "Let's Work Together",
+  "cta_tag": "Interested in collaborating or learning more about my services?",
+
+  "work_title": "Work",
+  "work_p1": "Work",
+  "work_btn": "Work",
+
+  "contact_title": "Contact",
+  "contact_p1": "Contact",
+  "contact_btn": "Contact",
+
+  "coming_soon": "More info coming soon...",
+
+  "footer_txt": "2024 Bnei Adam. All rights reserved."
+}
