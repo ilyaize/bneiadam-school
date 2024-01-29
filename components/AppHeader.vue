@@ -25,9 +25,9 @@
             <NuxtLink :to="localPath('/#about')">{{ $t('nav_about') }}</NuxtLink>
           </li>
 
-          <!-- <li class="btn btn-link text-yellow-500 no-underline">
-            <NuxtLink :to="localPath('/contact')">{{ $t('nav_contact') }}</NuxtLink>
-          </li> -->
+          <li class="btn btn-link text-yellow-500 no-underline">
+            <a href="#more">{{ $t('nav_contact') }}</a>
+          </li>
 
           <LangSwitcher />
 
@@ -57,6 +57,9 @@
         <NuxtLink :to="localPath('/#about')" class="btn btn-link text-yellow-500 no-underline">
           {{ $t('nav_about') }}
         </NuxtLink>
+        <li class="btn btn-link text-yellow-500 no-underline">
+          <a href="#more">{{ $t('nav_contact') }}</a>
+        </li>
         <LangSwitcher />
         <button class="btn btn-primary mx-4 border-0 bg-yellow-500 hover:bg-yellow-400">
           <i class="fa-solid fa-phone"></i>
@@ -78,13 +81,6 @@ onMounted(() => {
   document.documentElement.setAttribute('data-theme', defaultTheme);
   isDarkTheme.value = defaultTheme === 'dark';
 });
-
-function toggleTheme() {
-  isDarkTheme.value = !isDarkTheme.value;
-  document.documentElement.setAttribute('data-theme', isDarkTheme.value ? 'dark' : 'light');
-}
-
-let showMenu = ref(false);
 
 const localPath = useLocalePath();
 

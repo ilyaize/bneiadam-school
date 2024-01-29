@@ -12,7 +12,6 @@
           <section class="blurred-bg rounded-3xl">
             <p class="mb-5 text-yellow-50">
               {{ $t('home_p1.1') }}
-              <!-- TODO: keep one-liner -->
               <span class="font-bold text-yellow-300">{{ $t('home_p1.2') }}</span>
               <span class="text-yellow-50">{{ $t('home_p1.3') }}</span>
             </p>
@@ -90,9 +89,9 @@
       </div>
     </section>
   </div>
-  <section id="about" class="">
+  <section id="more" class="">
     <div class="text-center">
-      <h2 class="mt-20 text-4xl font-bold">{{ $t('coming_soon') }}</h2>
+      <h2 class="mt-20 text-4xl font-bold text-yellow-50">{{ $t('coming_soon') }}</h2>
     </div>
   </section>
 </template>

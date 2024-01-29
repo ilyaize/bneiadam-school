@@ -9,6 +9,11 @@
         <li class="btn btn-link no-underline">
           <NuxtLink :to="localPath('/#about')" class="btn btn-link text-yellow-500 no-underline">{{ $t('nav_about') }}</NuxtLink>
         </li>
+
+        <li class="btn btn-link text-yellow-500 no-underline">
+          <a href="#more">{{ $t('nav_contact') }}</a>
+        </li>
+        <LangSwitcher />
       </nav>
 
       <p class="mt-10 text-center text-xs leading-5 text-gray-500">&copy; {{ $t('footer_txt') }}</p>
