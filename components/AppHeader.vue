@@ -8,8 +8,8 @@
           <!-- TODO: temp fix -->
           <!-- <span class="px-5 font-bold text-xl">{{ $t('home') }}</span> -->
           <div class="px-5 pt-2 text-center">
-            <span class="block text-xl font-bold leading-4 text-yellow-500">{{ $t('home') }}</span>
-            <span class="block text-sm tracking-widest">&mdash; {{ $t('home2') }} &mdash;</span>
+            <span class="block text-xl font-bold leading-4 text-yellow-50">{{ $t('home') }}</span>
+            <span class="block text-sm tracking-widest text-yellow-500">&mdash; {{ $t('home2') }} &mdash;</span>
           </div>
         </NuxtLink>
       </div>
@@ -63,7 +63,7 @@
         <LangSwitcher />
         <button class="btn btn-primary mx-4 border-0 bg-yellow-500 hover:bg-yellow-400">
           <i class="fa-solid fa-phone"></i>
-          +972 54-461-9687
+          054-461-9687
         </button>
       </div>
     </div>
