@@ -95,8 +95,8 @@
   <div class="mt-16 text-yellow-50 sm:mt-28">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-3xl sm:text-center">
-        <p class="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Dive deeper into our unique approach:</p>
-        <p class="mt-6 text-lg leading-8 text-yellow-50">In our practice, we believe that the mind and body are intricately connected and that true healing requires addressing both. This is why we've chosen to integrate the power of psychology and osteopathy to treat the whole person, not just their symptoms.</p>
+        <p class="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">{{ $t('feature_title') }}</p>
+        <p class="mt-6 text-lg leading-8 text-yellow-50">{{ $t('feature_p1') }}</p>
       </div>
     </div>
     <div class="relative overflow-hidden pt-16">
@@ -110,35 +110,35 @@
     <div class="mx-auto mt-16 max-w-7xl px-6 sm:mt-20 md:mt-24 lg:px-8">
       <dl class="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
         <div class="">
-          <dt class="inline font-semibold text-yellow-50">Psychological factors manifest in physical ways:&nbsp;</dt>
-          <dd class="inline text-yellow-50">Stress, anxiety, and trauma can create tension in muscles, affect posture, and contribute to pain. For example, chronic stress can manifest as headaches, back pain, or digestive issues.</dd>
+          <dt class="inline font-semibold text-yellow-50">{{ $t('feature_c1t') }}</dt>
+          <dd class="inline text-yellow-50">{{ $t('feature_c1c') }}</dd>
         </div>
         <div class="">
-          <dt class="inline font-semibold text-yellow-50">Physical discomfort impacts mental well-being:&nbsp;</dt>
-          <dd class="inline text-yellow-50">Chronic pain, discomfort, and limitations in mobility can lead to depression, anxiety, and decreased self-esteem. The cycle can go both ways, making it crucial to address both aspects.</dd>
+          <dt class="inline font-semibold text-yellow-50">{{ $t('feature_c2t') }}</dt>
+          <dd class="inline text-yellow-50">{{ $t('feature_c2c') }}</dd>
         </div>
         <div class="">
-          <dt class="inline font-semibold text-yellow-50">Osteopathic treatment promotes emotional well-being:&nbsp;</dt>
-          <dd class="inline text-yellow-50">By releasing physical tension, improving circulation, and restoring balance to the musculoskeletal system, osteopathy can create a sense of calm and relaxation, impacting the nervous system and reducing stress.</dd>
+          <dt class="inline font-semibold text-yellow-50">{{ $t('feature_c3t') }}</dt>
+          <dd class="inline text-yellow-50">{{ $t('feature_c3c') }}</dd>
         </div>
         <div class="">
-          <dt class="inline font-semibold text-yellow-50">Psychological tools can enhance osteopathic treatment:&nbsp;</dt>
-          <dd class="inline text-yellow-50">Techniques like mindfulness, stress management, and cognitive-behavioral therapy can help patients become more aware of their body's sensations and work with the osteopath to optimize treatment outcomes.</dd>
+          <dt class="inline font-semibold text-yellow-50">{{ $t('feature_c4t') }}</dt>
+          <dd class="inline text-yellow-50">{{ $t('feature_c4c') }}</dd>
         </div>
         <div class="">
-          <dt class="inline font-semibold text-yellow-50">Your osteopath and psychologist work together:&nbsp;</dt>
-          <dd class="inline text-yellow-50">They share information, create a personalized treatment plan, and adjust it based on your progress.</dd>
+          <dt class="inline font-semibold text-yellow-50">{{ $t('feature_c5t') }}</dt>
+          <dd class="inline text-yellow-50">{{ $t('feature_c5c') }}</dd>
         </div>
         <div class="">
-          <dt class="inline font-semibold text-yellow-50">You, the patient, are an active participant:&nbsp;</dt>
-          <dd class="inline text-yellow-50">You'll learn about the mind-body connection and be equipped with tools to manage your physical and emotional health.</dd>
+          <dt class="inline font-semibold text-yellow-50">{{ $t('feature_c6t') }}</dt>
+          <dd class="inline text-yellow-50">{{ $t('feature_c6c') }}</dd>
         </div>
       </dl>
     </div>
     <div class="mx-auto max-w-2xl py-8 sm:py-12 lg:py-14">
       <div class="text-center">
-        <p class="mt-2 text-3xl font-bold tracking-tight text-yellow-50 sm:text-4xl">In summary,</p>
-        <p class="mt-6 text-lg leading-8 text-yellow-50">by combining the strengths of osteopathy and psychology, we offer a more holistic and effective approach to wellness. We address the root causes of your symptoms, improve your physical and emotional well-being, and empower you to live a healthier, happier life.</p>
+        <p class="mt-2 text-3xl font-bold tracking-tight text-yellow-50 sm:text-4xl">{{ $t('summery_title') }}</p>
+        <p class="mt-6 text-lg leading-8 text-yellow-50">{{ $t('summery_p1') }}</p>
       </div>
     </div>
   </div>
