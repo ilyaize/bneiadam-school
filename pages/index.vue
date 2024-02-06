@@ -62,7 +62,7 @@
             </div>
           </div>
           <div class="space-y-4 text-center">
-            <img class="mx-auto h-64 w-64 rounded-xl object-cover md:h-40 md:w-40 lg:h-64 lg:w-64" src="https://tailus.io/sources/blocks/classic/preview/images/woman1.jpg" alt="woman" loading="lazy" width="1000" height="667" />
+            <img class="mx-auto h-64 w-64 rounded-xl object-cover md:h-40 md:w-40 lg:h-64 lg:w-64" src="../assets/bridget.jpg" alt="Bridget Abitbol" loading="lazy" width="1000" height="667" />
             <div>
               <h4 class="text-2xl">{{ $t('team_c3.1') }}</h4>
               <span class="block text-sm">{{ $t('team_c3.2') }}</span>
@@ -144,7 +144,7 @@
   </div>
 
   <!-- Coming Soon Section -->
-  <section id="coming_soon" class="">
+  <section id="more" class="">
     <div class="text-center">
       <h2 class="mt-20 text-4xl font-bold text-yellow-50">{{ $t('coming_soon') }}</h2>
     </div>

@@ -7,7 +7,7 @@
 </template>
 <script setup lang="ts">
 useHead({
-  title: 'Bnei Adam',
+  title: 'Bnei Adam School',
   meta: [{ name: 'description', content: 'My amazing site.' }],
   script: [
     {

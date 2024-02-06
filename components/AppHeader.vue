@@ -33,7 +33,7 @@
 
           <a href="tel:+972555694652" class="btn btn-primary mx-4 border-0 bg-yellow-500 hover:bg-yellow-400">
             <i class="fa-solid fa-phone"></i>
-            054-461-9687
+            055-569-4652
           </a>
         </ul>
         <!-- hamburger menu -->
