@@ -1,5 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app: {
+    head: {
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=0.7'
+    }
+  },
   css: ['~/assets/main.scss'],
   plugins: [
     '~/plugins/direction-control' // your plugins file name
@@ -21,7 +27,7 @@ export default defineNuxtConfig({
       {
         code: 'en',
         iso: 'en-US',
-        name: 'English(US)',
+        name: 'English (US)',
         file: 'en.json'
       },
       {

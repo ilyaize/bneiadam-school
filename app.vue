@@ -8,7 +8,8 @@
 <script setup lang="ts">
 useHead({
   title: 'Bnei Adam School',
-  meta: [{ name: 'description', content: 'My amazing site.' }],
+
+  meta: [{ name: 'description', content: 'Bnei Adam School.' }],
   script: [
     {
       src: 'https://kit.fontawesome.com/6d91ab9cfa.js',

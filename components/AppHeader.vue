@@ -36,8 +36,8 @@
             055-569-4652
           </a>
         </ul>
-        <!-- hamburger menu -->
       </div>
+      <!-- hamburger menu -->
       <div class="flex md:hidden">
         <div id="nav-icon3" @click="toggleNav" :class="{ open: isMenuVisible }">
           <span></span>
