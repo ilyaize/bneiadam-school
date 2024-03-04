@@ -1,7 +1,7 @@
 <template>
   <footer>
     <div class="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
-      <nav class="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12" aria-label="Footer">
+      <nav class="-mb-6 sm:flex sm:justify-center sm:space-x-12" aria-label="Footer">
         <li class="btn btn-link no-underline">
           <NuxtLink :to="localPath('/')" class="btn btn-link text-yellow-500 no-underline">{{ $t('nav_home') }}</NuxtLink>
         </li>
