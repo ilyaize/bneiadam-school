@@ -93,8 +93,8 @@ const toggleNav = () => {
 
 <style lang="scss" scoped>
 #nav-icon3 {
-  width: 60px;
-  height: 45px;
+  width: 30px;
+  height: 22px;
   position: relative;
   transform: rotate(0deg);
   transition: 0.5s ease-in-out;
@@ -104,7 +104,7 @@ const toggleNav = () => {
 #nav-icon3 span {
   display: block;
   position: absolute;
-  height: 9px;
+  height: 4px;
   width: 100%;
   background: #eab308;
   border-radius: 9px;
@@ -120,15 +120,15 @@ const toggleNav = () => {
 
 #nav-icon3 span:nth-child(2),
 #nav-icon3 span:nth-child(3) {
-  top: 18px;
+  top: 9px;
 }
 
 #nav-icon3 span:nth-child(4) {
-  top: 36px;
+  top: 18px;
 }
 
 #nav-icon3.open span:nth-child(1) {
-  top: 18px;
+  top: 9px;
   width: 0%;
   left: 50%;
 }
@@ -142,7 +142,7 @@ const toggleNav = () => {
 }
 
 #nav-icon3.open span:nth-child(4) {
-  top: 18px;
+  top: 9px;
   width: 0%;
   left: 50%;
 }
