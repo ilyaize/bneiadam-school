@@ -22,17 +22,13 @@
             </a>
             <div class="flex flex-wrap justify-center gap-10">
               <div class="mt-10 flex justify-center">
-                <a href="#" class="px-5 text-gray-400 hover:text-gray-300">
-                  <span class="sr-only"></span>
-                  <i class="fa-brands fa-whatsapp fa-lg"></i>
+                <a href="https://www.facebook.com/people/Bnei-Adam-%D7%91%D7%A0%D7%99-%D7%90%D7%93%D7%9D/61557292015691/" class="px-5 text-gray-400 hover:text-gray-300">
+                  <i class="fa-brands fa-facebook fa-xl"></i>
+                  <div class="relative m-2 inline-block justify-center text-center text-sm">Facebook</div>
                 </a>
-                <a href="#" class="px-5 text-gray-400 hover:text-gray-300">
-                  <span class="sr-only"></span>
-                  <i class="fa-brands fa-facebook fa-lg"></i>
-                </a>
-                <a href="#" class="px-5 text-gray-400 hover:text-gray-300">
-                  <span class="sr-only"></span>
-                  <i class="fa-brands fa-youtube fa-lg"></i>
+                <a href="https://www.youtube.com/channel/UCUPNpjySsbZxJ437piunxQA" class="px-5 text-sm text-gray-400 hover:text-gray-300">
+                  <i class="fa-brands fa-youtube fa-xl"></i>
+                  <div class="relative m-2 inline-block justify-center text-center text-sm">YouTube</div>
                 </a>
               </div>
             </div>
